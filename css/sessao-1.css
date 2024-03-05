@@ -1,0 +1,207 @@
+body {
+  background-color: rgb(20, 20, 20);
+}
+.sessao-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: rgb(20, 20, 20);
+  padding-bottom: 30px;
+  /* Animação js */
+  opacity: 0;
+  filter: blur(15px);
+  transform: translateX(-70%);
+  transition: all 2s;
+}
+
+/* Pegando o elemento 2 da sessao 1 */
+.sessao-1 :nth-child(2){
+  transition-delay: 300ms;
+}
+.sessao-1 :nth-child(3){
+  transition-delay: 600ms;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 2s;
+}
+
+.box {
+  width: 24.2%;
+  min-width: 280px;
+  height: 360px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box .descricao {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Roboto", "Sans serif";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.box img {
+  border: 4px solid #fff;
+  width: 100%;
+  height: 90%;
+}
+
+/* Sessao 2 */
+
+.sessao-2 {
+  width: 100%;
+  background-image: url("../imagens/fund-teste.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 40px;
+}
+
+.sessao-2 h2 {
+  text-align: center;
+  font-size: 39px;
+  margin-bottom: 30px;
+  color: #fff;
+  padding-top: 40px;
+  font-family: "Roboto", "Sans serif";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sessao-2 button {
+  width: 200px;
+  height: 40px;
+  margin-inline: 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(230, 134, 18);
+  color: #fff;
+  font-size: 20px;
+}
+
+.sessao-2 button:hover {
+  cursor: pointer;
+  width: 210px;
+}
+
+.opcoes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.posicoes {
+  width: 89%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-block: 30px;
+}
+
+.ataque img,
+.meio img,
+.zaga img {
+  width: 160px;
+  margin: 8px;
+}
+/* 
+.zaga,
+.meio {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  padding-bottom: 40px;
+} */
+
+.ataque,
+.zaga,
+.meio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+}
+
+@media screen and (max-width: 1000px) {
+  /* Sessao 1 */
+  .texto {
+    background-color: rgba(42, 40, 40, 0.626);
+    justify-content: center;
+    margin-top: -00px;
+  }
+
+  .imagem img {
+    width: 24rem;
+    height: 30rem;
+  }
+
+  .boxes {
+    margin-top: -40px;
+  }
+
+  .box {
+    margin-top: 20px;
+  }
+
+  .ataque img,
+  .zaga img,
+  .meio img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 1088px) {
+  .sessao-2 h2 {
+    font-size: 29px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+
+  .posicoes {
+    margin-top: 10px;
+  }
+  .ataque p,
+  .meio p,
+  .zaga p {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 565px) {
+  .sessao-2 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding-block: 0;
+  }
+
+  .box .descricao {
+    font-size: 17px;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .sessao-2 button {
+    font-size: 17px;
+  }
+
+  .texto {
+    width: 85%;
+  }
+}

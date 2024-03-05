@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400; 1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/sessao-1.css" />
+    <link rel="stylesheet" href="css/mascote.css">
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div id="home" class="parte-1">
+      <header>
+        <div class="logo">
+          <img src="imagens/villains-removebg-preview.png" alt="img" />
+        </div>
+        <div class="menu">
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="">Contatos</a></li>
+              <li><a href="">Quero fazer parte</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+        <div class="botton">
+          <button id="botao" onclick="abrir()">
+            <img src="imagens/menu-fechar.png" alt="img">
+          </button>
+        </div>
+
+      </header>
+
+      <div id="menu-mobile" class="menu-mobile">
+        <nav>
+          <ul>
+            <li>HOME</li>
+            <li>SOBRE</li>
+            <li>CONTATOS</li>
+            <li>QUERO FAZER PARTE</li>
+            <li>MARCAR AMISTOSO</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="container">
+        <!-- parte 1 CSS -->
+        <div class="titulo">
+          <h2>eSport VILLAINS F.C</h2>
+          <p>Fundado no ano de 2022</p>
+        </div>
+
+        <!-- Parte 2 CSS -->
+        <div class="imagem">
+          <img src="imagens/villains-removebg-preview.png" alt="imagem-logo" />
+        </div>
+
+        <!-- Parte 3 CSS -->
+        <div class="texto">
+          <h3>
+            Clube de Pro Clubs disposto a proporcionar <br />muita diversão e
+            jogabilidade
+          </h3>
+          <button><a href="#sobre">CONHECER MAIS</a></button>
+        </div>
+      </div>
+    </div>
+    <!--parte-1-->
+
+    <section id="sobre" class="sessao-1">
+        <div class="box">
+          <div class="descricao">
+            <h2>Destaque Ofensivo</h2>
+          </div>
+          <img src="imagens-jogadores/adrikk.png" alt="imagem" />
+        </div>
+        <div class="box">
+          <div class="descricao">
+            <h2>Destaque do Meio</h2>
+          </div>
+          <img src="imagens-jogadores/mj.jpeg" alt="imagem" />
+        </div>
+        <div class="box">
+          <div class="descricao">
+            <h2>Destaque Defensivo</h2>
+          </div>
+          <img src="imagens-jogadores/vit-gol.jpeg" alt="imagem" />
+        </div>
+    </section>
+
+    <div class="parte-2-3">
+    <div class="sessao-2">
+        <h2>Lista de Integrantes</h2>
+      <div class="opcoes">
+        <button class="ata-opc">Ataque</button>
+        <button class="meio-opc">Meio</button>
+        <button class="zag-opc">Defesa</button>
+      </div>
+
+      <div class="posicoes">
+      <div id="ata-id" class="ataque">
+        <div class="adrik">
+          <img src="imagens-jogadores/adrikk.png" alt="adrik">
+        </div>
+        <div class="bernardo">
+          <img src="imagens-jogadores/bernardo.jpeg" alt="bernardo">
+        </div>
+        <div class="felipe">
+          <img src="imagens-jogadores/felipe.jpeg" alt="felipe">
+        </div>
+        <div class="adrik">
+          <img src="imagens-jogadores/adrikk.png" alt="adrik">
+        </div>
+        <div class="bernardo">
+          <img src="imagens-jogadores/bernardo.jpeg" alt="bernardo">
+        </div>
+        <div class="felipe">
+          <img src="imagens-jogadores/felipe.jpeg" alt="felipe">
+        </div>
+        
+      </div><!--ataque-->
+
+
+      <div id="mei-id" class="meio">
+        <div class="mj">
+          <img src="imagens-jogadores/mj.jpeg" alt="mj">
+        </div>
+      </div>
+
+      <div id="zag-id" class="zaga">
+        <div class="joao">
+          <img src="imagens-jogadores/joao.jpeg" alt="vitor">
+        </div>
+        <div class="thomilson">
+          <img src="imagens-jogadores/thomilson.jpeg" alt="vitor">
+        </div>
+        <div class="vitor">
+          <img src="imagens-jogadores/vit-gol.jpeg" alt="vitor">
+        </div>
+        
+      </div>
+    </div><!--posicoes-->
+    </div>
+    <section class="sessao-mascote">
+        <div class="ima-mascote">
+        <img src="imagens/mascote-img.jpeg" alt="mascote">
+      </div>
+
+      <div class="tipo-mascote">
+        <img src="imagens/uniformes.jpeg" alt="unif">
+      </div>
+    </section>
+
+    <section class="sessao-video">
+      <div class="ajuste-video">
+
+        <div class="video">
+          <video controls>
+            <source src="imagens/lance-ofc.mp4">
+          </video>
+        </div>
+
+      </div>
+    </section>
+
+  </div><!--partes 2 e 3-->
+    <script src="js/javaSsc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/dom.js"></script>
+  </body>
+</html>
