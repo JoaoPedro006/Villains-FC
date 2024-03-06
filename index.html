@@ -2,18 +2,23 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Permanent+Marker&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400; 1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400; 1,900&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/sessao-1.css" />
-    <link rel="stylesheet" href="css/mascote.css">
+    <link rel="stylesheet" href="css/mascote.css" />
     <title>Document</title>
   </head>
   <body>
-    
     <div id="home" class="parte-1">
       <header>
         <div class="logo">
@@ -24,18 +29,17 @@
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#sobre">Sobre</a></li>
-              <li><a href="">Contatos</a></li>
+              <li><a href="#contatos">Contatos</a></li>
               <li><a href="">Quero fazer parte</a></li>
             </ul>
           </nav>
         </div>
-        
+
         <div class="botton">
           <button id="botao" onclick="abrir()">
-            <img src="imagens/menu-fechar.png" alt="img">
+            <img src="imagens/menu-fechar.png" alt="img" />
           </button>
         </div>
-
       </header>
 
       <div id="menu-mobile" class="menu-mobile">
@@ -43,7 +47,7 @@
           <ul>
             <li><a href="#home">HOME</a></li>
             <li><a href="#sobre">SOBRE</a></li>
-            <li><a href="#">CONTATOS</a></li>
+            <li><a href="#contatos">CONTATOS</a></li>
             <li><a href="#">QUERO FAZER PARTE</a></li>
             <li><a href="#">MARCAR AMISTOSO</a></li>
           </ul>
@@ -75,98 +79,161 @@
     <!--parte-1-->
 
     <section id="sobre" class="sessao-1">
-        <div class="box">
-          <div class="descricao">
-            <h2>Destaque Ofensivo</h2>
-          </div>
-          <img src="imagens-jogadores/adrikk.png" alt="imagem" />
+      <div class="box">
+        <div class="descricao">
+          <h2>Destaque Ofensivo</h2>
         </div>
-        <div class="box">
-          <div class="descricao">
-            <h2>Destaque do Meio</h2>
-          </div>
-          <img src="imagens-jogadores/mj.jpeg" alt="imagem" />
+        <img src="imagens-jogadores/adrikk.png" alt="imagem" />
+      </div>
+      <div class="box">
+        <div class="descricao">
+          <h2>Destaque do Meio</h2>
         </div>
-        <div class="box">
-          <div class="descricao">
-            <h2>Destaque Defensivo</h2>
-          </div>
-          <img src="imagens-jogadores/thomilson.jpeg" alt="imagem" />
+        <img src="imagens-jogadores/mj.jpeg" alt="imagem" />
+      </div>
+      <div class="box">
+        <div class="descricao">
+          <h2>Destaque Defensivo</h2>
         </div>
+        <img src="imagens-jogadores/thomilson.jpeg" alt="imagem" />
+      </div>
     </section>
 
     <div class="parte-2-3">
-    <div class="sessao-2">
+      <div class="sessao-2">
         <h2>Lista de Integrantes</h2>
-      <div class="opcoes">
-        <button class="ata-opc">Ataque</button>
-        <button class="meio-opc">Meio</button>
-        <button class="zag-opc">Defesa</button>
+        <div class="opcoes">
+          <button class="ata-opc">Ataque</button>
+          <button class="meio-opc">Meio</button>
+          <button class="zag-opc">Defesa</button>
+        </div>
+
+        <div class="posicoes">
+          <div id="ata-id" class="ataque">
+            <div class="adrik">
+              <img src="imagens-jogadores/adrikk.png" alt="adrik" />
+            </div>
+            <div class="bernardo">
+              <img src="imagens-jogadores/bernardo.jpeg" alt="bernardo" />
+            </div>
+            <div class="felipe">
+              <img src="imagens-jogadores/felipe.jpeg" alt="felipe" />
+            </div>
+          </div>
+          <!--ataque-->
+
+          <div id="mei-id" class="meio">
+            <div class="mj">
+              <img src="imagens-jogadores/mj.jpeg" alt="mj" />
+            </div>
+            <div class="marcones">
+              <img src="imagens-jogadores/marcones.jpeg" alt="mj" />
+            </div>
+            <div class="alan">
+              <img src="imagens-jogadores/alan.jpeg" alt="mj" />
+            </div>
+          </div>
+
+          <div id="zag-id" class="zaga">
+            <div class="joao">
+              <img src="imagens-jogadores/joao.jpeg" alt="vitor" />
+            </div>
+            <div class="thomilson">
+              <img src="imagens-jogadores/thomilson.jpeg" alt="vitor" />
+            </div>
+            <div class="vector">
+              <img src="imagens-jogadores/vector.jpeg" alt="vitor" />
+            </div>
+          </div>
+        </div>
+        <!--posicoes-->
       </div>
-
-      <div class="posicoes">
-      <div id="ata-id" class="ataque">
-        <div class="adrik">
-          <img src="imagens-jogadores/adrikk.png" alt="adrik">
-        </div>
-        <div class="bernardo">
-          <img src="imagens-jogadores/bernardo.jpeg" alt="bernardo">
-        </div>
-        <div class="felipe">
-          <img src="imagens-jogadores/felipe.jpeg" alt="felipe">
-        </div>
-        <div class="adrik">
-          <img src="imagens-jogadores/adrikk.png" alt="adrik">
-        </div>
-        <div class="bernardo">
-          <img src="imagens-jogadores/bernardo.jpeg" alt="bernardo">
-        </div>
-        <div class="felipe">
-          <img src="imagens-jogadores/felipe.jpeg" alt="felipe">
-        </div>
-        
-      </div><!--ataque-->
-
-
-      <div id="mei-id" class="meio">
-        <div class="mj">
-          <img src="imagens-jogadores/mj.jpeg" alt="mj">
-        </div>
-      </div>
-
-      <div id="zag-id" class="zaga">
-        <div class="joao">
-          <img src="imagens-jogadores/joao.jpeg" alt="vitor">
-        </div>
-        <div class="thomilson">
-          <img src="imagens-jogadores/thomilson.jpeg" alt="vitor">
-        </div>
-      </div>
-    </div><!--posicoes-->
-    </div>
-    <section class="sessao-mascote">
+      <section class="sessao-mascote">
         <div class="ima-mascote">
-        <img src="imagens/mascote-img.jpeg" alt="mascote">
-      </div>
-
-      <div class="tipo-mascote">
-        <img src="imagens/uniformes.jpeg" alt="unif">
-      </div>
-    </section>
-
-    <section class="sessao-video">
-      <div class="ajuste-video">
-
-        <div class="video">
-          <video controls>
-            <source src="imagens/lance-ofc.mp4">
-          </video>
+          <img src="imagens/mascote-img.jpeg" alt="mascote" />
         </div>
 
-      </div>
-    </section>
+        <div class="tipo-mascote">
+          <img src="imagens/uniformes.jpeg" alt="unif" />
+        </div>
+      </section>
 
-  </div><!--partes 2 e 3-->
+      <section class="sessao-video">
+        <div class="ajuste-video">
+          <div class="video">
+            <video controls>
+              <source src="imagens/lance-ofc.mp4" />
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+
+        <div id="contatos" class="p1">
+          <h3>Redes Sociais:</h3>
+          <p>
+            <img src="redes/insta-icon.png" alt="link" />
+            <a href="https://www.instagram.com/villainsfc__/"
+              >villainsfc__ (clique)</a
+            >
+          </p>
+          <p>
+            <img src="redes/link-watts.png" alt="link" />
+            <a href="https://www.instagram.com/villainsfc__/"
+              >villainsfc__ (clique)</a
+            >
+          </p>
+          <p>
+            <img src="redes/discord.png" alt="link" />
+            <a href="https://discord.com/invite/mVrsHrZA"
+              >villainsfc__ (clique)</a
+            >
+          </p>
+          <p>
+            <img src="redes/twitch.png" alt="link" />
+            <a href="https://www.twitch.tv/villainsfc?sr=a"
+              >villainsfc__ (clique)</a
+            >
+          </p>
+        </div>
+        <div class="p2">
+          <h3>Créditos Autor:</h3>
+          <p>
+            <img src="redes/link-icon.png" alt="link" />
+            <a
+              href="https://www.linkedin.com/in/jo%C3%A3o-pedro-maia-pinheiro-23532a269/"
+              >Joao Pedro (clique)</a
+            >
+          </p>
+          <p>
+            <img src="redes/git-icon.png" alt="link" />
+            <a
+              href="https://github.com/settings/profile"
+              >Joao Pedro (clique)</a
+            >
+          </p>
+          <p>
+            <img src="redes/link-watts.png" alt="link" />
+            <a
+              href="https://www.linkedin.com/in/jo%C3%A3o-pedro-maia-pinheiro-23532a269/"
+              >(85)99933-8238</a
+            >
+          </p>
+        </div>
+        <div class="p3">
+          <h3>Agradecimentos:</h3>
+          <p>Designer: HsAdrik</p>
+          <p>Time: eSports Villains</p>
+          <p>DEV de Software: João Pedro</p>
+        </div>
+      </footer>
+    </div>
+
+    <div class="footer-parte-2">
+      <h5>Site oficial eSport Villains &copy; desenvolvido por João Pedro 06/03/2024</h5>
+    </div>
+    <!--partes 2 e 3-->
     <script src="js/javaSsc.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/dom.js"></script>

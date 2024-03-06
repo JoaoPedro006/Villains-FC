@@ -1,12 +1,10 @@
-
-
 .sessao-mascote {
   width: 100%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding-block: 40px;
-  background-color: rgb( 20, 20, 20); 
+  background-color: rgb(20, 20, 20);
 }
 
 .ima-mascote {
@@ -55,14 +53,13 @@
   .tipo-mascote {
     width: 80%;
   }
-
 }
 
 /* Sessao última */
 
-.sessao-video{
+.sessao-video {
   width: 100%;
-  background-image: url('../imagens/fund-teste.png');
+  background-image: url("../imagens/fund-teste.png");
   background-size: cover;
   background-position: 10%;
   display: flex;
@@ -70,7 +67,7 @@
   padding-block: 40px;
 }
 
-.ajuste-video{
+.ajuste-video {
   width: 75%;
   height: auto;
   display: flex;
@@ -78,15 +75,87 @@
   align-items: center;
 }
 
-.video{
+.video {
   width: 80%;
   height: 100%;
   min-width: 400px;
 }
 
-.video video{
+.video video {
   width: 100%;
   height: auto;
   min-width: 400px;
   cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-block: 30px;
+  gap: 20px;
+}
+
+footer img {
+  width: 30px;
+  margin-right: 6px;
+  position: relative;
+  top: -9px;
+}
+
+footer div {
+  min-width: 370px;
+}
+
+footer div h3 {
+  font-size: 24px;
+  color: gold;
+}
+
+footer div p {
+  display: flex;
+  justify-content: center;
+  margin-top: 13px;
+}
+
+footer div p a:hover {
+  color: gold;
+}
+
+footer .p1 {
+  width: 28%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .p2 {
+  width: 28%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .p3 {
+  width: 28%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+
+.footer-parte-2{
+  width: 100%;
+  height: 60px;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
